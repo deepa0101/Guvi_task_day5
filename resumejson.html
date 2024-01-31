@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let resumeJson =[{"Name": "ABC","Mail":"abc@gmail.com","PhoneNumber": 1234567890,"Education": "M.tech Software Enigeering","institue":"VIT","Skills":["Python","Automation"] } ]
+
+    for( key in resumeJson){
+         console.log(resumeJson[key])
+     }
+      
+    for(value of resumeJson){
+         console.log(value)
+    }
+    for(var i =0;i<resumeJson.length;i++) {
+        console.log(resumeJson[i])
+    }
+
+    resumeJson.forEach(element => {
+        console.log(element)
+    });
+    // 
+    // 
+    
+    </script>
+</body>
+</html>
